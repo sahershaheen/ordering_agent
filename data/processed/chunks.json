@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "source_file": "Flavour_And_Rush_RAG_Sample_Dataset.pdf",
+    "num_chunks": 30,
+    "created_at": "2026-07-15T08:45:19.112625+00:00"
+  },
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "text": "Flavour & Rush — Complete Sample RAG Dataset\nfor a Fast Food Restaurant\nCompany Overview\nBrand Name\nFlavour & Rush\nBusiness Type\nQuick Service Restaurant (QSR) / Fast Food Chain\nHeadquarters\nLahore, Pakistan\nEstablished\n2019\nBrand Mission\nTo serve delicious, affordable, and freshly prepared fast food with exceptional customer service and fast\ndelivery.\nBrand Vision\nTo become the most trusted and customer-friendly fast food chain in Pakistan by combining quality\ningredients, innovative recipes, and technology-driven customer experiences.\nCore Values\nFreshness in every meal\nCustomer satisfaction first\nSpeed without compromising quality\nClean and hygienic operations\nRespect for employees and customers\nContinuous innovation\nCommunity involvement\n• \n• \n• \n• \n• \n• \n• \n1",
+      "page": 1,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 1,
+      "text": "Restaurant Branch Information\nMain Branch — Johar Town\nAddress\n12-B Commercial Plaza, Johar Town, Lahore\nContact Number\n+92-42-555-0199\nEmail\nsupport@flavourandrush.com\nOpening Hours\nMonday to Thursday: 11:00 AM – 11:00 PM Friday: 2:00 PM – 12:00 AM Saturday: 11:00 AM – 12:00 AM\nSunday: 11:00 AM – 11:30 PM\nDelivery Radius\n8 kilometers\nFacilities\nIndoor dining\nFamily seating\nKids play corner\nFree WiFi\nPrayer area\nWheelchair accessible entrance\nDedicated pickup counter\nSelf-service kiosks\nDHA Branch\nAddress\n22-C Phase 5, DHA Lahore\n• \n• \n• \n• \n• \n• \n• \n• \n2",
+      "page": 2,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 2,
+      "text": "Contact Number\n+92-42-555-0111\nOpening Hours\nDaily: 11:00 AM – 1:00 AM\nFacilities\nDrive-thru service\nVIP lounge seating\nOutdoor dining\nCorporate meal packages\nBike parking\nDigital payment support\nFaisalabad Branch\nAddress\nSusan Road, Faisalabad\nContact Number\n+92-41-555-4500\nOpening Hours\nDaily: 12:00 PM – 12:00 AM\nFacilities\nFamily hall\nEvent bookings\nStudent discounts\nBirthday arrangements\nLarge parking area\n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n3",
+      "page": 3,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 3,
+      "text": "Restaurant Policies\nGeneral Customer Policy\nCustomers are expected to maintain respectful behavior toward staff and other guests.\nAny abusive language or threatening behavior may result in refusal of service.\nOutside food and beverages are not allowed inside the restaurant.\nSmoking is prohibited inside dining areas.\nPets are not allowed except certified service animals.\nCustomers must keep children supervised at all times.\nThe management reserves the right to refuse service if safety or comfort of guests is compromised.\nLost items are stored for seven days before disposal.\nCCTV monitoring is active in all branches for safety purposes.\nCustomers are encouraged to report any hygiene or service concerns immediately.\nRefund and Cancellation Policy\nDine-In Orders\nRefunds are only provided if the food is significantly delayed, incorrect, or spoiled.\nRefund requests must be made within 15 minutes of receiving the order .\nPartial refunds may be offered for missing items.\nOnline Delivery Orders",
+      "page": 4,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 4,
+      "text": "Refund requests must be made within 15 minutes of receiving the order .\nPartial refunds may be offered for missing items.\nOnline Delivery Orders\nOrders can be canceled within 2 minutes after placement.\nOnce food preparation begins, cancellation is not allowed.\nDelivery charges are non-refundable.\nIf delivery exceeds 90 minutes, customers may receive a coupon or partial refund.\nPayment Reversal Timeline\nCard refunds: 5–7 business days\nMobile wallet refunds: 24–48 hours\nCash refunds: Same day with receipt\nFood Safety Policy\nAll ingredients are sourced from approved vendors.\nFrozen items are stored below -18°C.\nFresh vegetables are washed and sanitized before preparation.\nCooking oil is replaced every 48 hours.\nMeat products are checked daily for freshness.\nStaff members must wear gloves and hairnets.\n1. \n2. \n3. \n4. \n5. \n6. \n7. \n8. \n9. \n10. \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n1. \n2. \n3. \n4. \n5. \n6. \n4",
+      "page": 4,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 5,
+      "text": "Kitchen surfaces are sanitized every two hours.\nExpired ingredients are immediately discarded.\nMonthly pest control inspections are mandatory.\nFood temperature logs are maintained for all hot and cold items.\nDelivery Policy\nDelivery Timings\nStandard delivery time: 30–50 minutes\nPeak hour delivery time: 45–75 minutes\nDelivery Charges\nOrders under Rs. 1000: Rs. 150 delivery fee\nOrders above Rs. 1000: Free delivery within 5 km\nAdditional charges apply beyond 5 km\nDelivery Rules\nDelivery riders must follow safety regulations.\nContactless delivery is available upon request.\nCustomers must provide accurate addresses.\nFailed deliveries due to incorrect addresses may not qualify for refunds.\nEmployee Attendance Policy\nEmployees must arrive 15 minutes before shift start.\nLate arrivals exceeding 10 minutes are recorded.\nThree late arrivals in a month result in a written warning.\nAbsence without notice may result in salary deduction.",
+      "page": 5,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 6,
+      "text": "Late arrivals exceeding 10 minutes are recorded.\nThree late arrivals in a month result in a written warning.\nAbsence without notice may result in salary deduction.\nSick leave requires medical documentation for more than two days.\nStaff members must clock in using biometric attendance systems.\nShift swapping requires manager approval.\nUniform Policy\nKitchen Staff\nBlack chef coat\nHairnet\nDisposable gloves\nNon-slip shoes\n7. \n8. \n9. \n10. \n• \n• \n• \n• \n• \n• \n• \n• \n• \n1. \n2. \n3. \n4. \n5. \n6. \n7. \n• \n• \n• \n• \n5",
+      "page": 5,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 7,
+      "text": "Front Desk Staff\nRed branded polo shirt\nBlack trousers\nName badge\nClean grooming standards\nDelivery Riders\nBranded rider jacket\nSafety helmet\nDelivery bag with insulation\nSocial Media Policy\nEmployees may not post confidential company information online.\nNegative public comments about customers are prohibited.\nOfficial announcements can only be made by marketing managers.\nStaff members must avoid recording kitchen operations without permission.\nCustomer privacy must be protected in all online content.\nFull Restaurant Menu\nBurgers\nSignature Beef Burger\nPrice: Rs. 899 Description: Juicy grilled beef patty with cheddar cheese, caramelized onions, lettuce, pickles,\nand smoky sauce. Calories: 760\nDouble Trouble Burger\nPrice: Rs. 1199 Description: Double beef patties, double cheese, jalapenos, crispy onions, and spicy mayo.\nCalories: 1020\nClassic Zinger Burger\nPrice: Rs. 749 Description: Crispy fried chicken breast with lettuce and garlic mayo. Calories: 690\n• \n• \n• \n• \n• \n• \n• \n1. \n2. \n3.",
+      "page": 6,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 8,
+      "text": "Calories: 1020\nClassic Zinger Burger\nPrice: Rs. 749 Description: Crispy fried chicken breast with lettuce and garlic mayo. Calories: 690\n• \n• \n• \n• \n• \n• \n• \n1. \n2. \n3. \n4. \n5. \n6",
+      "page": 6,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 9,
+      "text": "Grilled Chicken Burger\nPrice: Rs. 799 Description: Herb-marinated grilled chicken fillet with ranch sauce. Calories: 620\nMushroom Melt Burger\nPrice: Rs. 950 Description: Beef patty topped with sautéed mushrooms and swiss cheese. Calories: 810\nFirecracker Burger\nPrice: Rs. 999 Description: Extra spicy chicken fillet with hot sauce and jalapenos. Calories: 740\nVeggie Crunch Burger\nPrice: Rs. 650 Description: Crispy vegetable patty with lettuce, tomatoes, and garlic sauce. Calories: 550\nLoaded Fries\nCheese Loaded Fries\nPrice: Rs. 499 Description: Crispy fries topped with cheddar cheese sauce. Calories: 480\nPizza Fries\nPrice: Rs. 699 Description: Fries topped with chicken chunks, olives, pizza sauce, and mozzarella. Calories:\n780\nJalapeno Fries\nPrice: Rs. 599 Description: Fries with jalapenos, spicy mayo, and cheese. Calories: 640\nBBQ Fries\nPrice: Rs. 650 Description: Fries topped with BBQ chicken and smoky sauce. Calories: 720\n7",
+      "page": 7,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 10,
+      "text": "Sandwiches and Wraps\nCrispy Chicken Wrap\nPrice: Rs. 620 Description: Fried chicken strips with lettuce and garlic sauce wrapped in tortilla bread.\nCalories: 540\nGrilled Chicken Wrap\nPrice: Rs. 680 Description: Grilled chicken, onions, peppers, and chipotle sauce. Calories: 510\nClub Sandwich\nPrice: Rs. 850 Description: Triple-layer sandwich with chicken, egg, lettuce, and cheese. Calories: 700\nSteak Sandwich\nPrice: Rs. 1050 Description: Beef steak slices with sautéed onions and mustard sauce. Calories: 840\nPizza Menu\nChicken Fajita Pizza\nSmall: Rs. 899 Medium: Rs. 1499 Large: Rs. 2099 Description: Chicken fajita chunks with onions and green\npeppers.\nPepperoni Pizza\nSmall: Rs. 999 Medium: Rs. 1699 Large: Rs. 2299 Description: Beef pepperoni with mozzarella cheese.\nBBQ Chicken Pizza\nSmall: Rs. 950 Medium: Rs. 1599 Large: Rs. 2199 Description: BBQ chicken, onions, and smoky sauce.\nVeggie Supreme Pizza",
+      "page": 8,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 11,
+      "text": "BBQ Chicken Pizza\nSmall: Rs. 950 Medium: Rs. 1599 Large: Rs. 2199 Description: BBQ chicken, onions, and smoky sauce.\nVeggie Supreme Pizza\nSmall: Rs. 799 Medium: Rs. 1399 Large: Rs. 1999 Description: Mushrooms, olives, onions, peppers, and\ntomatoes.\n8",
+      "page": 8,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 12,
+      "text": "Extreme Cheese Pizza\nSmall: Rs. 1099 Medium: Rs. 1799 Large: Rs. 2499 Description: Four-cheese blend with extra mozzarella.\nFried Chicken\n2 Piece Chicken Meal\nPrice: Rs. 650 Includes fries and drink. Calories: 850\n5 Piece Bucket\nPrice: Rs. 1499 Calories: 2100\n10 Piece Family Bucket\nPrice: Rs. 2799 Includes fries and 1.5L drink. Calories: 4200\nChicken Strips\nPrice: Rs. 799 Description: Six crispy chicken strips with dip. Calories: 690\nWings Bucket\nPrice: Rs. 899 Description: Ten spicy wings. Calories: 720\nPasta Menu\nAlfredo Pasta\nPrice: Rs. 950 Description: Creamy white sauce pasta with grilled chicken. Calories: 890\nArrabbiata Pasta\nPrice: Rs. 920 Description: Spicy red sauce pasta with herbs. Calories: 760\nDynamite Pasta\nPrice: Rs. 1099 Description: Creamy spicy pasta with jalapenos and chicken. Calories: 980\n9",
+      "page": 9,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 13,
+      "text": "Rice Meals\nChicken Fried Rice\nPrice: Rs. 650 Calories: 580\nChicken Chowmein\nPrice: Rs. 720 Calories: 640\nChinese Combo Bowl\nPrice: Rs. 999 Includes fried rice, chowmein, and chicken manchurian. Calories: 1150\nKids Menu\nMini Burger Meal\nPrice: Rs. 450 Includes mini burger , fries, and juice.\nChicken Nuggets Meal\nPrice: Rs. 499 Includes 6 nuggets and drink.\nKids Pizza Slice Meal\nPrice: Rs. 550 Includes pizza slice, fries, and juice.\nDesserts\nChocolate Lava Cake\nPrice: Rs. 450 Calories: 420\nBrownie with Ice Cream\nPrice: Rs. 520 Calories: 610\n10",
+      "page": 10,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 14,
+      "text": "Vanilla Sundae\nPrice: Rs. 350 Calories: 300\nOreo Shake\nPrice: Rs. 590 Calories: 670\nLotus Shake\nPrice: Rs. 680 Calories: 790\nBeverages\nSoft Drinks\nRegular: Rs. 120 Large: Rs. 180\nMineral Water\nPrice: Rs. 100\nMint Margarita\nPrice: Rs. 350\nPeach Iced Tea\nPrice: Rs. 320\nFresh Lime\nPrice: Rs. 280\n11",
+      "page": 11,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 15,
+      "text": "Combo Deals\nRush Deal 1\nPrice: Rs. 1299 Includes:\n1 Zinger Burger\nFries\nDrink\nChicken Wings\nRush Deal 2\nPrice: Rs. 2499 Includes:\n2 Burgers\n2 Fries\n2 Drinks\nPizza Fries\nFamily Feast\nPrice: Rs. 4999 Includes:\nLarge Pizza\n10 Piece Bucket\nLarge Fries\n1.5L Drink\nDessert\nSeasonal Menu\nRamadan Special Box\nPrice: Rs. 1499 Includes dates, mini burger , chicken piece, fries, drink, and dessert. Available only during\nRamadan.\nWinter Soup Bowl\nPrice: Rs. 420 Creamy chicken corn soup. Available November to February.\n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n12",
+      "page": 12,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 16,
+      "text": "Summer Blast Drinks\nPrice Range: Rs. 300–450 Includes mango smoothies and berry coolers. Available May to August.\nIngredient Information\nAllergens\nThe following allergens may exist in menu items:\nDairy\nGluten\nSoy\nEggs\nNuts\nSeafood traces\nAllergy Warning\nCustomers with food allergies should inform staff before ordering.\nSupplier Database\nMeat Supplier\nPak Fresh Meats Pvt Ltd Location: Lahore Supplies:\nChicken\nBeef\nFrozen patties\nVegetable Supplier\nGreen Valley Farms Location: Sheikhupura Supplies:\nLettuce\nTomatoes\nOnions\nBell peppers\n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n13",
+      "page": 13,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 17,
+      "text": "Beverage Supplier\nCoolSip Distributors Location: Karachi Supplies:\nSoft drinks\nJuices\nMineral water\nPOS System Knowledge Base\nSupported Payment Methods\nCash\nVisa Card\nMastercard\nDebit Cards\nJazzCash\nEasyPaisa\nBank Transfer\nQR Payments\nInvoice Rules\nEvery order receives a unique invoice number .\nTax details are automatically calculated.\nDuplicate invoices require manager approval.\nRefund invoices must include reason codes.\nCustomer Loyalty Program\nProgram Name\nRush Rewards\nMembership Levels\nBronze\nEarn 1 point per Rs. 100\nBirthday discount: 5%\n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n1. \n2. \n3. \n4. \n• \n• \n14",
+      "page": 14,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 18,
+      "text": "Silver\nRequirements: 15 orders monthly Benefits:\n10% discount\nPriority delivery\nFree fries once a week\nGold\nRequirements: 30 orders monthly Benefits:\n15% discount\nFree delivery\nExclusive menu access\nBirthday meal voucher\nCustomer FAQs\nWhat are your delivery timings?\nWe deliver from 11:00 AM until 12:00 AM depending on branch timings.\nDo you offer free delivery?\nYes, on selected orders above Rs. 1000 within eligible areas.\nAre your burgers halal?\nYes, all meat products are 100% halal certified.\nDo you host birthday events?\nYes, event bookings are available at selected branches.\nCan customers customize orders?\nYes, customers may request ingredient additions or removals.\nDo you have vegetarian options?\nYes, several vegetarian burgers, pizzas, and fries are available.\n• \n• \n• \n• \n• \n• \n• \n15",
+      "page": 15,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 19,
+      "text": "Are there any student discounts?\nSelected branches provide student discounts with valid ID cards.\nHow can customers contact support?\nCustomers may call branch numbers or email support@flavourandrush.com.\nKitchen Operations Manual\nOpening Checklist\nSanitize all kitchen counters.\nTurn on fryers and grills.\nCheck refrigerator temperatures.\nPrepare sauces and vegetables.\nVerify inventory levels.\nActivate POS systems.\nConduct employee attendance checks.\nClosing Checklist\nDispose of expired ingredients.\nClean fryers and kitchen tools.\nLock refrigerators.\nShut down POS systems.\nRecord sales summaries.\nSecure cash drawers.\nPerform pest inspection.\nInventory Management Rules\nStorage Rules\nFrozen products must remain sealed.\nDry ingredients are stored above floor level.\nFIFO method is mandatory.\nExpiry dates must be checked daily.\n1. \n2. \n3. \n4. \n5. \n6. \n7. \n1. \n2. \n3. \n4. \n5. \n6. \n7. \n• \n• \n• \n• \n16",
+      "page": 16,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 20,
+      "text": "Inventory Alerts\nChicken stock below 20 kg triggers reorder .\nCheese stock below 10 kg triggers reorder .\nBeverage stock below 30 units triggers reorder .\nWaste Tracking\nAll damaged or expired inventory must be recorded with:\nProduct name\nQuantity\nReason for disposal\nStaff member responsible\nHuman Resources Policies\nHiring Requirements\nKitchen Staff\nMinimum age: 18\nFood handling experience preferred\nAbility to work night shifts\nCashiers\nBasic computer knowledge\nGood communication skills\nCustomer handling experience\nDelivery Riders\nValid driving license\nSmartphone access\nKnowledge of city routes\nEmployee Benefits\nMonthly bonuses for top performers\nFree meal during shifts\nAnnual salary increments\nPaid annual leave\n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n17",
+      "page": 17,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 21,
+      "text": "Health allowance\nEmployee discounts\nDisciplinary Actions\nMinor Violations\nExamples:\nUniform violations\nLate attendance\nIncomplete cleaning duties\nPunishments:\nVerbal warning\nWritten warning\nMajor Violations\nExamples:\nTheft\nHarassment\nFood contamination negligence\nFighting at workplace\nPunishments:\nSuspension\nTermination\nLegal action if applicable\nMarketing and Promotions\nWeekly Promotions\nMonday Madness\nBuy one burger and get second burger at 50% off.\nTuesday Family Deal\n20% off on Family Feast.\n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n18",
+      "page": 18,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 22,
+      "text": "Wednesday Student Day\nStudents receive free drinks with meals.\nFriday Night Combo\nFree dessert with purchases above Rs. 2500.\nSocial Media Channels\nFacebook\nInstagram\nTikTok\nYouTube\nMarketing Tone\nFriendly\nYouth-focused\nEnergetic\nHumorous but respectful\nCustomer Complaint Handling SOP\nStep 1: Listen\nStaff must politely listen without interrupting.\nStep 2: Apologize\nOffer sincere apologies for inconvenience.\nStep 3: Verify\nCheck invoice and issue details.\nStep 4: Resolve\nPossible resolutions include:\nReplacement meal\nRefund\n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n19",
+      "page": 19,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 23,
+      "text": "Discount voucher\nStep 5: Escalate\nSerious complaints are forwarded to branch managers.\nDelivery Rider SOP\nRiders must wear helmets at all times.\nOrders must be checked before leaving.\nRiders may not open food packaging.\nDelayed deliveries must be reported.\nCustomer disputes must be escalated.\nRiders must maintain respectful communication.\nData Privacy Policy\nCustomer phone numbers are confidential.\nPayment information is encrypted.\nStaff may not share customer data externally.\nCCTV footage is only accessible by management.\nMarketing emails require customer consent.\nEmergency Procedures\nFire Emergency\nUse nearest fire extinguisher .\nEvacuate customers calmly.\nContact emergency services.\nSwitch off gas supply.\nMedical Emergency\nCall nearest hospital.\nUse first aid kit.\nInform branch manager immediately.\n• \n1. \n2. \n3. \n4. \n5. \n6. \n1. \n2. \n3. \n4. \n5. \n1. \n2. \n3. \n4. \n1. \n2. \n3. \n20",
+      "page": 20,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 24,
+      "text": "Power Failure\nActivate backup generators.\nPause online ordering temporarily if systems fail.\nProtect frozen inventory.\nTechnology Stack\nRestaurant Systems\nPOS software\nInventory tracking system\nHR attendance system\nMobile ordering app\nCRM system\nOnline Ordering Platforms\nFoodpanda\nCareem Food\nWebsite ordering portal\nMobile application\nWebsite Content\nHomepage Banner Text\n“Fresh Taste Delivered Fast!”\nAbout Us\nFlavour & Rush combines modern fast food flavors with fast service and premium quality ingredients. Since\n2019, the brand has served thousands of customers across Pakistan.\nCustomer Promise\nFresh ingredients\nFast delivery\nAffordable pricing\nHygienic kitchens\n1. \n2. \n3. \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n21",
+      "page": 21,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 25,
+      "text": "AI Chatbot Knowledge Examples\nGreeting Responses\n“Welcome to Flavour & Rush! How may I help you today?”\nDelivery Questions\n“Our average delivery time is 30–50 minutes depending on traffic and order volume.”\nRefund Questions\n“Refunds are available for incorrect or damaged orders after verification.”\nMenu Recommendation Example\n“If you enjoy spicy food, we recommend the Firecracker Burger or Dynamite Pasta.”\nVegetarian Recommendation Example\n“Our Veggie Crunch Burger and Veggie Supreme Pizza are popular vegetarian choices.”\nAnalytics and Reporting\nDaily Sales Report Includes\nTotal orders\nTotal revenue\nTop-selling items\nRefund count\nDelivery statistics\nMonthly KPIs\nCustomer satisfaction rate\nDelivery success rate\nFood waste percentage\nEmployee attendance rate\nOnline order growth\n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n22",
+      "page": 22,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 26,
+      "text": "Future Expansion Plans\nOpen branches in Islamabad and Karachi.\nLaunch a dedicated mobile rewards app.\nIntroduce breakfast menus.\nExpand drive-thru operations.\nAdd AI-powered recommendation systems.\nPartner with universities for student meal plans.\nSample Customer Reviews\nPositive Review\n“The burgers were fresh and delivery was super fast. Highly recommended!”\nNeutral Review\n“Food quality was good but delivery took longer than expected.”\nNegative Review\n“The fries arrived cold, but customer support quickly replaced the order .”\nSample Training Notes\nCustomer Service Tips\nSmile while speaking to customers.\nRepeat orders for confirmation.\nThank customers after every transaction.\nHandle complaints calmly.\nUpselling Examples\n“Would you like to add cheese fries with your burger?”\n“You can upgrade to a large drink for only Rs. 50 more.”\n1. \n2. \n3. \n4. \n5. \n6. \n• \n• \n• \n• \n• \n• \n23",
+      "page": 23,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 27,
+      "text": "Catering Services\nAvailable For\nCorporate events\nBirthday parties\nUniversity events\nFamily gatherings\nCatering Rules\nMinimum order value: Rs. 15,000\nAdvance booking required\n50% advance payment mandatory\nCancellation allowed 24 hours before event\nSustainability Initiatives\nReduced plastic packaging usage.\nPaper straws introduced at selected branches.\nOil recycling partnerships.\nEnergy-saving kitchen equipment.\nFood donation collaborations with charities.\nInternal Escalation Matrix\nLevel 1\nCashier or customer support representative.\nLevel 2\nShift supervisor .\nLevel 3\nBranch manager .\n• \n• \n• \n• \n• \n• \n• \n• \n1. \n2. \n3. \n4. \n5. \n24",
+      "page": 24,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 28,
+      "text": "Level 4\nRegional operations manager .\nLevel 5\nHead office management.\nOperational Glossary\nDine-In\nCustomers eating inside the restaurant.\nTakeaway\nOrders picked up by customers.\nVoid Order\nCanceled transaction before payment completion.\nRider Delay\nDelivery delayed beyond estimated time.\nFIFO\nFirst In First Out inventory management system.\nSample Database Records\nCustomer Record Example\nCustomer ID: C1021 Name: Ahmed Raza Phone: 0300-1112233 Favorite Item: Zinger Burger Membership\nLevel: Silver\nEmployee Record Example\nEmployee ID: E778 Name: Ali Khan Role: Cashier Shift: Evening Branch: DHA Lahore\n25",
+      "page": 25,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    },
+    {
+      "chunk_id": 29,
+      "text": "Order Record Example\nOrder ID: FR-99182 Order Type: Delivery Items:\nFirecracker Burger\nPizza Fries\nMint Margarita Total: Rs. 1890 Status: Delivered\nConclusion\nThis dataset provides a complete fictional knowledge base for the Flavour & Rush restaurant brand. It\nincludes restaurant policies, menus, operations, FAQs, SOPs, customer support workflows, employee\npolicies, inventory management, delivery rules, and structured business information suitable for Retrieval-\nAugmented Generation (RAG) chatbot development, semantic search systems, embeddings practice, vector\ndatabases, and conversational AI applications.\n• \n• \n• \n26",
+      "page": 26,
+      "source": "Flavour_And_Rush_RAG_Sample_Dataset.pdf"
+    }
+  ]
+}

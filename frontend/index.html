@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flavour &amp; Rush — Order &amp; Book</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+
+    <!-- ============ Header ============ -->
+    <header class="header">
+      <div class="brand">
+        <div class="brand-mark">F&amp;R</div>
+        <div>
+          <h1>Flavour &amp; Rush</h1>
+          <p>AI Ordering &amp; Booking Assistant</p>
+        </div>
+      </div>
+      <div class="status" id="apiStatus" title="Backend status">
+        <span class="status-dot"></span><span class="status-text">checking…</span>
+      </div>
+    </header>
+
+    <!-- ============ Tabs ============ -->
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-panel="chatPanel">💬 Chat</button>
+      <button class="tab" data-panel="menuPanel">🍔 Menu</button>
+      <button class="tab" data-panel="orderPanel">🛒 Order</button>
+      <button class="tab" data-panel="reservationPanel">📅 Reserve</button>
+      <button class="tab" data-panel="trackPanel">🚚 Track</button>
+    </nav>
+
+    <main class="panels">
+
+      <!-- ============ Chat panel ============ -->
+      <section class="panel active" id="chatPanel">
+        <div class="chat-history" id="chatHistory">
+          <div class="msg agent">
+            <div class="bubble">
+              Welcome to Flavour &amp; Rush! Ask me about the menu, place an order,
+              book a table, or track an order. You can type or use the mic.
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-loading hidden" id="chatLoading">
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="chat-input">
+          <textarea id="chatText" rows="1" maxlength="2000"
+                    placeholder="Type a message…" aria-label="Message"></textarea>
+          <button class="icon-btn voice" id="voiceBtn" title="Speak your message" aria-label="Record voice message">
+            <svg viewBox="0 0 24 24"><path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2z"/></svg>
+          </button>
+          <button class="icon-btn send" id="sendBtn" title="Send" aria-label="Send message">
+            <svg viewBox="0 0 24 24"><path d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+          </button>
+        </div>
+        <p class="hint" id="voiceHint"></p>
+      </section>
+
+      <!-- ============ Menu panel ============ -->
+      <section class="panel" id="menuPanel">
+        <form class="row" id="menuForm">
+          <input id="menuQuery" type="text" placeholder="Search the menu… e.g. spicy burgers, desserts, deals"
+                 aria-label="Menu search" />
+          <button class="btn" type="submit">Search</button>
+        </form>
+        <div class="loading hidden" id="menuLoading"><div class="spinner"></div>Searching the knowledge base…</div>
+        <div class="results" id="menuResults"></div>
+      </section>
+
+      <!-- ============ Order panel ============ -->
+      <section class="panel" id="orderPanel">
+        <form id="orderForm" autocomplete="off">
+          <div class="grid-2">
+            <label>Full name <input name="full_name" required maxlength="100" placeholder="Ali Khan" /></label>
+            <label>Phone <input name="phone" required maxlength="20" placeholder="+92-300-1234567" pattern="^[+\d][\d\s\-]+$" /></label>
+          </div>
+
+          <div class="items-head">
+            <h3>Items</h3>
+            <button type="button" class="btn ghost small" id="addItemBtn">+ Add item</button>
+          </div>
+          <div id="itemRows"></div>
+
+          <div class="grid-2">
+            <label>Order type
+              <select id="orderType">
+                <option value="delivery">Delivery</option>
+                <option value="takeaway">Takeaway</option>
+              </select>
+            </label>
+            <label>Payment
+              <select name="payment_method">
+                <option value="cash">Cash</option>
+                <option value="credit card">Credit Card</option>
+                <option value="debit card">Debit Card</option>
+                <option value="jazzcash">JazzCash</option>
+                <option value="easypaisa">EasyPaisa</option>
+              </select>
+            </label>
+          </div>
+
+          <label id="addressField">Delivery address
+            <input name="delivery_address" maxlength="300" placeholder="House, street, area, city" />
+          </label>
+
+          <div class="row space-between">
+            <div class="total">Total: <strong id="orderTotal">Rs. 0</strong></div>
+            <button class="btn primary" type="submit">Place order</button>
+          </div>
+        </form>
+
+        <div class="loading hidden" id="orderLoading"><div class="spinner"></div>Placing your order…</div>
+        <div id="orderSummary"></div>
+      </section>
+
+      <!-- ============ Reservation panel ============ -->
+      <section class="panel" id="reservationPanel">
+        <form id="reservationForm" autocomplete="off">
+          <div class="grid-2">
+            <label>Name <input name="customer_name" required maxlength="100" placeholder="Sara Ahmed" /></label>
+            <label>Phone <input name="phone" required maxlength="20" placeholder="+92-300-1234567" pattern="^[+\d][\d\s\-]+$" /></label>
+          </div>
+          <div class="grid-3">
+            <label>Date <input name="date" type="date" required /></label>
+            <label>Time <input name="time" type="time" required /></label>
+            <label>Guests <input name="guests" type="number" min="1" max="50" value="2" required /></label>
+          </div>
+          <label>Special requests <input name="special_requests" maxlength="300"
+                 placeholder="Window seat, birthday cake… (optional)" /></label>
+          <div class="row right">
+            <button class="btn primary" type="submit">Book table</button>
+          </div>
+        </form>
+
+        <div class="loading hidden" id="reservationLoading"><div class="spinner"></div>Booking your table…</div>
+        <div id="reservationResult"></div>
+      </section>
+
+      <!-- ============ Track panel ============ -->
+      <section class="panel" id="trackPanel">
+        <form class="row" id="trackForm">
+          <input id="trackQuery" type="text" placeholder="Order number (e.g. 3) or phone number"
+                 aria-label="Order number or phone" required />
+          <button class="btn" type="submit">Track</button>
+        </form>
+        <div class="loading hidden" id="trackLoading"><div class="spinner"></div>Looking up your order…</div>
+        <div class="results" id="trackResults"></div>
+      </section>
+
+    </main>
+
+    <footer class="footer">Flavour &amp; Rush · Lahore · powered by GPT-4o</footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
