@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm charcoal surface palette */
+  --color-surface-950: #0c0a09;
+  --color-surface-900: #16130f;
+  --color-surface-800: #211d17;
+  --color-surface-700: #2e2921;
+  --color-surface-600: #423a2f;
+
+  /* Brand amber */
+  --color-brand-300: #fcd34d;
+  --color-brand-400: #fbbf24;
+  --color-brand-500: #f59e0b;
+  --color-brand-600: #d97706;
+
+  --color-ink-100: #f5f0e8;
+  --color-ink-300: #cfc6b8;
+  --color-ink-500: #8f8574;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-playfair), ui-serif, Georgia, serif;
+}
+
+body {
+  background:
+    radial-gradient(1100px 500px at 80% -10%, rgba(245, 158, 11, 0.07), transparent 60%),
+    radial-gradient(900px 450px at 0% 100%, rgba(217, 119, 6, 0.05), transparent 55%),
+    var(--color-surface-950);
+  color: var(--color-ink-100);
+  min-height: 100vh;
+}
+
+/* Slim scrollbars that match the theme */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-surface-600) transparent;
+}
+
+/* Blinking dots while the agent is thinking */
+@keyframes typing-dot {
+  0%, 60%, 100% { opacity: 0.25; transform: translateY(0); }
+  30% { opacity: 1; transform: translateY(-3px); }
+}
+.typing-dot {
+  animation: typing-dot 1.2s infinite;
+}
+.typing-dot:nth-child(2) { animation-delay: 0.15s; }
+.typing-dot:nth-child(3) { animation-delay: 0.3s; }
+
+/* Pulsing ring around the mic button while recording */
+@keyframes rec-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.45); }
+  100% { box-shadow: 0 0 0 14px rgba(239, 68, 68, 0); }
+}
+.rec-pulse {
+  animation: rec-pulse 1.3s infinite;
+}

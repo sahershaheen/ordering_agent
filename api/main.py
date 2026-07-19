@@ -8,6 +8,7 @@ Interactive docs: http://localhost:8000/docs
 
 import base64
 import io
+import json
 import os
 import sqlite3
 import threading
@@ -34,9 +35,11 @@ from api.schemas import (
     MenuPassage,
     MenuResponse,
     MetricsResponse,
+    OrderRecord,
     OrderRequest,
     OrderResponse,
     OrderStatus,
+    ReservationRecord,
     ReservationRequest,
     ReservationResponse,
     Source,
@@ -345,6 +348,62 @@ def cancel_reservation_endpoint(body: CancelReservationRequest) -> dict:
         raise HTTPException(status_code=500, detail=str(exc)) from exc
 
     return {"reservation_id": body.reservation_id, "status": "cancelled"}
+
+
+@app.get("/orders", response_model=list[OrderRecord])
+def list_orders_endpoint(limit: int = 200) -> list[OrderRecord]:
+    """List all placed orders, newest first (for cross-checking records)."""
+    with get_connection() as conn:
+        rows = conn.execute(
+            "SELECT o.order_id, c.full_name, c.phone, o.order_items, "
+            "o.total_price, o.payment_method, o.order_status, "
+            "o.delivery_address, o.created_at "
+            "FROM orders o JOIN customers c ON c.customer_id = o.customer_id "
+            "ORDER BY o.order_id DESC LIMIT ?",
+            (max(1, min(limit, 1000)),),
+        ).fetchall()
+
+    return [
+        OrderRecord(
+            order_id=row["order_id"],
+            customer_name=row["full_name"],
+            phone=row["phone"],
+            order_type="delivery" if row["delivery_address"] else "takeaway",
+            items=json.loads(row["order_items"]),
+            total_price=row["total_price"],
+            payment_method=row["payment_method"],
+            status=row["order_status"],
+            delivery_address=row["delivery_address"],
+            created_at=row["created_at"],
+        )
+        for row in rows
+    ]
+
+
+@app.get("/reservations", response_model=list[ReservationRecord])
+def list_reservations_endpoint(limit: int = 200) -> list[ReservationRecord]:
+    """List all table reservations, newest first (for cross-checking records)."""
+    with get_connection() as conn:
+        rows = conn.execute(
+            "SELECT reservation_id, customer_name, phone, date, time, guests, "
+            "special_requests, reservation_status FROM reservations "
+            "ORDER BY reservation_id DESC LIMIT ?",
+            (max(1, min(limit, 1000)),),
+        ).fetchall()
+
+    return [
+        ReservationRecord(
+            reservation_id=row["reservation_id"],
+            customer_name=row["customer_name"],
+            phone=row["phone"],
+            date=row["date"],
+            time=row["time"],
+            guests=row["guests"],
+            special_requests=row["special_requests"],
+            status=row["reservation_status"],
+        )
+        for row in rows
+    ]
 
 
 @app.get("/menu", response_model=MenuResponse)

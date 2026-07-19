@@ -132,6 +132,32 @@ class MenuResponse(BaseModel):
     passages: list[MenuPassage]
 
 
+# --- /orders and /reservations (admin listings for cross-checking) ---------------------
+
+class OrderRecord(BaseModel):
+    order_id: int
+    customer_name: str
+    phone: str
+    order_type: str
+    items: list[dict]
+    total_price: float
+    payment_method: str
+    status: str
+    delivery_address: str | None
+    created_at: str
+
+
+class ReservationRecord(BaseModel):
+    reservation_id: int
+    customer_name: str
+    phone: str
+    date: str
+    time: str
+    guests: int
+    special_requests: str | None
+    status: str
+
+
 # --- /health --------------------------------------------------------------------------
 
 class HealthResponse(BaseModel):
